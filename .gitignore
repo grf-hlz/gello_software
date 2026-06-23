@@ -1,0 +1,40 @@
+# keep each top level section alphabetical
+# keep each item within the sections alphabetical
+
+# large files
+*.png
+*.gif
+
+# mac
+*.DS_Store
+
+# misc
+*logs*
+*runs*
+*tb_logs*
+*wandb*
+*wandb_logs*
+outputs/*
+
+# python
+*__pycache__
+*.egg-info
+*.hypothesis
+*.ipynb_checkpoints
+*.mypy_cache
+*.pyc
+
+# vim
+*.swp
+MUJOCO_LOG.TXT
+
+#ros
+ros2/build/
+ros2/install/
+ros2/log/
+
+# robot packages
+third_party/i2rt/
+
+# 3D Model Files
+*.stl
