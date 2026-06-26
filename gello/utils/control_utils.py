@@ -136,7 +136,7 @@ import numpy as np
 from typing import Dict, Any, Optional
 
 class LeRobotSaveInterface:
-    def __init__(self, repo_id: str = "local/ur5_lerobot_dataset", fps: int = 30, task_name: str = "UR5 Teleoperation Task"):
+    def __init__(self, repo_id: str = "local/ur5_handover_60ep", fps: int = 30, task_name: str = "UR5 Teleoperation Task"):
         from gello.data_utils.keyboard_interface import KBReset
         from lerobot.datasets.lerobot_dataset import LeRobotDataset
         import os  # 新增导入 os

@@ -244,7 +244,7 @@ def main(args):
     if args.use_save_interface:
         from gello.utils.control_utils import LeRobotSaveInterface 
         save_interface = LeRobotSaveInterface(
-            repo_id="local/ur5_lerobot_dataset", 
+            repo_id="local/ur5_handover_60ep", 
             fps=30,
             task_name=args.task_name  # <--- 新增这行，把参数传给保存接口
         )
